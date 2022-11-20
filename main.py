@@ -100,7 +100,7 @@ def draw_game(food,snake_list):
 def gameLoop():
     start()
 
-    snake_list = [[ROWS // 2, COLS // 2]]
+    snake_list = [[ROWS // 2, COLS // 2],[ROWS // 2 -1, COLS // 2],[ROWS // 2 -2, COLS // 2],[ROWS // 2 -2, COLS // 2-1],[ROWS // 2-2, COLS // 2-2]]
     direction = 'RIGHT'
     lastFood = 0
     food = generate_food()
